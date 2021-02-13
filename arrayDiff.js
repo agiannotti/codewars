@@ -10,7 +10,7 @@
 // If a value is present in b, all of its occurrences
 //  must be removed from the other:
 
-// arrayDiff([1,2,2,2,3],[2]) == [1,3]
+// arrayDiff([1,2,2,2,3],[2]) == [1,3]asdasdasd
 
 function arrayDiff(a, b) {
   a.forEach((i) => {
