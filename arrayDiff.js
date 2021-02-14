@@ -14,7 +14,7 @@
 
 function arrayDiff(a, b) {
   a.forEach((i) => {
-    if (b.includes(i)) {
+    if (!b.includes(i)) {
       a.splice(a.indexOf(i), 1);
     }
   });
